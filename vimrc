@@ -1,14 +1,18 @@
-set incsearch
 syntax enable
+set background=light
 colorscheme solarized
 
-set ruler
-set mouse=a
+set colorcolumn=101
 set number
+set ruler
 
+set mouse=a
 set expandtab
-set smartindent
 set tabstop=4
 set shiftwidth=4
+set smarttab
 set softtabstop=4
-set colorcolumn=101
+set incsearch
+set smartindent
+
+filetype plugin on
