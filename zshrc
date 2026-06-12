@@ -32,4 +32,4 @@ _git_prompt() {
 }
 
 setopt PROMPT_SUBST
-PROMPT='[%D{%H:%M}] 🏠 %F{magenta}%f %F{blue}%~%f$(_git_prompt) $ '
+PROMPT='[%D{%H:%M}] %F{blue}%~%f$(_git_prompt) $ '
